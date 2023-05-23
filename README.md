@@ -34,11 +34,11 @@ The following endpoints are supported:
 
 ## Screenshots
 
-![home-page](https://user-images.githubusercontent.com/72888249/207355016-1054a001-e68f-4536-93b5-13ebd68c35e3.png)
-![register-page](https://user-images.githubusercontent.com/72888249/207467460-24673a99-41c5-49fd-8755-a8ff0d04f4be.png)
-![login-page](https://user-images.githubusercontent.com/72888249/207467519-35c3c764-371e-4a9c-9fb7-36d1f53d02c3.png)
-![home-page-logged-in](https://user-images.githubusercontent.com/72888249/207356520-32f2bae3-4c02-4445-b6c1-83f66f3a211a.png)
-![all-contacts](https://user-images.githubusercontent.com/72888249/207357086-fca28bea-e434-4896-9716-40bb5514889b.png)
-![create-contact](https://user-images.githubusercontent.com/72888249/207357475-54646dba-2be6-4d76-81b8-3e05043a1e61.png)
-![edit-contact](https://user-images.githubusercontent.com/72888249/207357743-bfa34884-fadf-4794-9fcf-076e7b24baeb.png)
-![search-contacts](https://user-images.githubusercontent.com/72888249/207357570-039509a1-ea86-4e79-9e2c-9b5aabae440a.png)
+![home-page](https://github.com/SoftUni/ShortURL/assets/72888249/ff511d23-9f03-41ae-8bb3-375021495075)
+![register-page](https://github.com/SoftUni/ShortURL/assets/72888249/ae3acba2-10df-4a00-a491-c034814080a0)
+![login-page](https://github.com/SoftUni/ShortURL/assets/72888249/43b8d7fb-2a10-452f-8c1b-bb7184b33ef5)
+![home-page-logged-in](https://github.com/SoftUni/ShortURL/assets/72888249/bb2289f0-73fc-4cfd-bc36-ed97a339640e)
+![all-addresses](https://github.com/SoftUni/ShortURL/assets/72888249/eef04f19-d9f8-4b90-afde-cb75dd058be4)
+![create-address](https://github.com/SoftUni/ShortURL/assets/72888249/997df6e6-1ded-432b-bdd2-fd198790e72a)
+![edit-address](https://github.com/SoftUni/ShortURL/assets/72888249/97cb50a8-a0f0-42b5-aad8-9d7b709800ec)
+![delete-address](https://github.com/SoftUni/ShortURL/assets/72888249/d515f403-9a8f-4690-81e7-8ffd8f641e4d)
