@@ -25,7 +25,7 @@ The following endpoints are supported:
 - `GET /api` - list all API endpoints
 - `GET /api/urladdresses` - list all addresses
 - `GET /api/urladdresses/count` - returns address count
-- `GET /api/urladdresses/search/:keyword` - returns addresses by their original URL
+- `GET /api/urladdresses/search/:keyword` - returns an URL that match the given keyword
 - `POST /api/urladdresses/create` - create a new short URL (send a JSON object in the request body, e.g. `{ "URL": "https://www.google.com", "Short Code": "goog" }`)
 - `PUT /api/urladdresses/:originalUrl` - edit address by its original URL (send a JSON object in the request body, holding all fields, e.g. `{ "URL": "https://www.google.com", "Short Code": "goog" }`)
 - `DELETE /api/urladdresses/:id` - delete address by `id`
