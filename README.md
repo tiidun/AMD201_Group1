@@ -1,6 +1,6 @@
 # UrlShortener C# App + RESTful API
 
-Summary: UrlShortener allows users to manage their own short links! Create, edit, and delete short links of your favourite websites!
+Summary: UrlShortener allows users to **manage their own short links!** Create, edit, and delete short links of your **favourite websites!**
 
 - Target platform: .NET 6
 - Seeded database with one user and three addresses
@@ -8,15 +8,15 @@ Summary: UrlShortener allows users to manage their own short links! Create, edit
 
 ## UrlShortener Web App
 
-The ASP.NET Core app "UrlShortener" is an app for making short URLs.
+The ASP.NET Core app "UrlShortener" is an app for **making short URLs**.
 
 - Technologies: C#, ASP.NET Core, Entity Framework Core, ASP.NET Core Identity, NUnit
 - The app supports the following operations:
   - Home page (view latest created / your own short URls): `/`
-  - View addresses: `/URLAddress/All`
-  - Create a new short URL (URL + short code): `/URLAddress/Add`
-  - Edit addresse: `/URLAddress/Edit/:id`
-  - Delete addresse: `/URLAddress/Delete/:id`
+  - **View** addresses: `/URLAddress/All`
+  - **Create** a new short URL (URL + short code): `/URLAddress/Add`
+  - **Edit** addresse: `/URLAddress/Edit/:id`
+  - **Delete** addresse: `/URLAddress/Delete/:id`
 
 ## UrlShortener RESTful API
 
