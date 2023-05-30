@@ -49,6 +49,12 @@ namespace URLShortener.Controllers
                     "You already have a short URL of that original URL!");
             }
 
+            if (this.context.URLAddresses.Any(c => c.ShortUrl.Contains(model.ShortCode)))
+            {
+                this.ModelState.AddModelError(nameof(model.ShortCode),
+                    $"A short code \"{model.ShortCode}\" already exists!");
+            }
+
             if (!this.ModelState.IsValid)
             {
                 return this.View(model);
