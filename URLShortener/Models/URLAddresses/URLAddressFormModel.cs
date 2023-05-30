@@ -14,6 +14,7 @@ namespace URLShortener.Models.URLAddresses
         [Required]
         [MaxLength(ShortUrlMaxLenght)]
         [MinLength(ShortUrlMinLenght)]
+        [Display(Name = "short code")]
         public string ShortCode { get; init; } = null!;
     }
 }
