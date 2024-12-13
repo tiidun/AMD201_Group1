@@ -44,7 +44,7 @@ namespace URLShortenerData.Data
             {
                 Id = 1,
                 OriginalUrl = "https://nakov.com",
-                ShortUrl = "http://shorturl.nakov.repl.co/go/nak",
+                ShortUrl = "http://shorturl.co/go/nak",
                 DateCreated = new DateTime(2021, 02, 17, 14, 41, 33),
                 Visits = 160,
                 UserId = this.GuestUser.Id
@@ -54,7 +54,7 @@ namespace URLShortenerData.Data
             {
                 Id = 2,
                 OriginalUrl = "https://selenium.dev",
-                ShortUrl = "http://shorturl.nakov.repl.co/go/seldev",
+                ShortUrl = "http://shorturl.co/go/seldev",
                 DateCreated = new DateTime(2021, 02, 17, 22, 07, 08),
                 Visits = 43,
                 UserId = this.GuestUser.Id
@@ -63,7 +63,7 @@ namespace URLShortenerData.Data
             {
                 Id = 3,
                 OriginalUrl = "https://nodejs.org",
-                ShortUrl = "http://shorturl.nakov.repl.co/go/node",
+                ShortUrl = "http://shorturl.co/go/node",
                 DateCreated = new DateTime(2021, 02, 19, 16, 41, 56),
                 Visits = 86,
                 UserId = this.GuestUser.Id

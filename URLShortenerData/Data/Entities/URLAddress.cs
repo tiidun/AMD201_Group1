@@ -26,4 +26,6 @@ namespace URLShortenerData.Data.Entities
 
         public IdentityUser User { get; init; }
     }
+   
+
 }

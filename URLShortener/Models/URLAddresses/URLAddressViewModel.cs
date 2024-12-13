@@ -2,6 +2,7 @@
 {
     public class URLAddressViewModel
     {
+        public int STT { get; set; }
         public int Id { get; init; }
 
         public string OriginalUrl { get; set; } = null!;

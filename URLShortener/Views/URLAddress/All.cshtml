@@ -1,35 +1,38 @@
-﻿@model IEnumerable<URLAddressViewModel>
+﻿@model IEnumerable<URLShortener.Models.URLAddresses.URLAddressViewModel>
 
 @{
-    ViewBag.Title = "All URL Addresses";
+ViewBag.Title = "All URL Addresses";
 }
+
 <div class="text-center">
-    <h1 class="display-4" id="headerText">Short URLs</h1>
-    <div class="scrollit">
-        <table class="urls">
-            <thead>
+<h1 class="display-4" id="headerText">Short URLs</h1>
+<div class="scrollit">
+    <table class="urls">
+        <thead>
+            <tr>
+                <th>STT</th> <!-- Add STT column here -->
+                <th>Original URL</th>
+                <th>Short URL</th>
+                <th>Date Created</th>
+                <th>Visits</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var url in Model)
+            {
                 <tr>
-                    <th>Original URL</th>
-                    <th>Short URL</th>
-                    <th>Date Created</th>
-                    <th>Visits</th>
+                    <td>@url.STT</td> <!-- Display STT -->
+                    <td>
+                        <a href="@url.OriginalUrl" target="_blank">@url.OriginalUrl</a>
+                    </td>
+                    <td>
+                        <a class="shorturl" method="get" asp-controller="URLAddress" asp-action="RedirectTo" asp-route-path="@url.ShortUrl">@url.ShortUrl</a>
+                    </td>
+                    <td>@url.DateCreated.ToString("yyyy/MM/dd HH:mm:ss")</td>
+                    <td>@url.Visits</td>
                 </tr>
-            </thead>
-            <tbody>
-                @foreach (var url in Model)
-                {
-                    <tr>
-                        <td>
-                            <a href="@url.OriginalUrl" target="_blank">@url.OriginalUrl</a>
-                        </td>
-                        <td>
-                            <a class="shorturl" method="get" asp-controller="URLAddress" asp-action="RedirectTo" asp-route-path="@url.ShortUrl">@url.ShortUrl</a>
-                        </td>
-                        <td>@url.DateCreated.ToString("yyyy/MM/dd HH:mm:ss")</td>
-                        <td>@url.Visits</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+            }
+        </tbody>
+    </table>
+</div>
 </div>
